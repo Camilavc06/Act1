@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Primera Actividad</title>
+	<link rel="stylesheet" type="text/css" href="act1.css">
+</head>
+<body>
+
+	<div class="ti" id="teo1" onclick="titu()">Neosistemas 2021</div>
+	<div class="caja" id="caja1"><div class="img" id="foto"></div></div>
+	<div class="pre" id="pre2" onmousemove="posi(event)"></div>
+	<div class="boto" id="tema1" onclick="bot1()">Eje (1)</div>
+	<div class="boto1" id="tema4" onclick="bot2()">Eje (2)</div>
+	<div class="" id="p"></div>
+
+<script>
+		x=0;
+	function titu() {
+		caja1.style.width=50+"%";
+		caja1.style.height=70+"%";
+		foto.style.width=56+"%";
+		foto.style.height=85+"%";
+		crono=setTimeout(titu,1500);
+		x=x+1;
+		if(x==3){
+			clearInterval(crono);
+				caja1.style.width=0+"%";
+				caja1.style.height=0+"%";
+				foto.style.height=0+"%";
+				x=0;
+				}
+		}
+		a=0;
+		function bot1() {
+		pre2.style.width=50+"%";
+		pre2.style.height=70+"%";
+	    crono=setTimeout(bot1,1000);
+		a=a+1;
+		if(a==4){
+				clearInterval(crono);
+				pre2.style.width=0+"%";
+				pre2.style.height=0+"%";
+				a=0;
+				}
+	   	}
+	   	function posi(){
+			a=event.clientX;
+			b=event.clientY;
+			pre2.innerHTML="Las coordenadas son las siguientes: "+a+" "+b+"";
+		}
+
+</script>
+</body>
+</html>

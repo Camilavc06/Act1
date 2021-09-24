@@ -1,0 +1,96 @@
+.ti{
+	position: absolute;
+	top: 2%;
+	left: 20%;
+	width: 60%;
+	height: 20%;
+	background: #01052F;
+	border-radius: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	padding-top: 10px;
+	font-size: 150px;
+	cursor: pointer;
+	font-family:a1;
+}
+.caja{
+	position: absolute;
+	top: 25%;
+	left: 25%;
+	width: 0%;
+	height: 0%;
+	background: #01052F;
+	border-radius: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	font-size: 60px;
+	cursor: pointer;
+	transition: all 1s;
+}
+.img{
+	position: absolute;
+	top: 8%;
+	left: 22%;
+	width: 0%;
+	height: 0%;
+	background-image: url("neo.png");
+	background-size: cover;
+}
+.boto{
+	position: absolute;
+	top: 170px;
+	left: 50px;
+	width: 15%;
+	height: 15%;
+	background:  black;
+    color: white;
+	border-radius: 20px;
+	font-size: 60px;
+	padding-left: 30px;
+	padding-top: 30px;
+	font-family:a3;
+}
+.boto1{
+	position: absolute;
+	top: 350px;
+	left: 50px;
+	width:15%;
+	height: 15%;
+	background:  black;
+	border-radius: 20px;
+	color: white;
+	font-size: 60px;
+	padding-left: 30px;
+	padding-top: 30px;
+	font-family:a3;
+}
+.pre{
+	position: absolute;
+	top: 25%;
+	left: 25%;
+	width: 0%;
+	height: 0%;
+	background: #DC143C;
+	border-radius: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	overflow: hidden;
+	transition: all 0.5s;
+}
+@font-face{
+ font-family:a1;
+ src: url(fu1.otf);
+}
+@font-face{
+ font-family:a2;
+ src: url(fu2.ttf);
+}
+@font-face{
+ font-family:a3;
+ src: url(fu3.otf);
+}
